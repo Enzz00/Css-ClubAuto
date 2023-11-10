@@ -1,0 +1,1250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: OpenSans,Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+                                                                /*-----------------DEBUT BEFORE NAV ----------------*/ 
+
+
+.fa-solid {
+    visibility: hidden;
+}
+#beforenav {
+    position: relative;
+    z-index: 3;
+    background-color: #25282b;
+    display: flex;
+    padding:1em 12em 1em 12em ;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#beforenav > div { 
+    display: flex;
+}
+#beforenav h1 {
+    color: white;
+    font-size: 2.5em;
+}
+#ouverturehoraires p {
+    color: white;
+}
+#adresse { 
+    line-height: 1.5em;
+    color: #6e6f72;
+}
+#beforenav span {
+    color: #CC6119;
+}
+#logotelephone , #logoadresse {
+    height: 3em;
+}
+#telephone span {
+    font-size: 0.8em;
+    ;
+}
+#telephone  p {
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-right: 3em ;
+    margin-bottom: 1em;
+}
+#beforenav #ouverturehoraires {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+}
+header .fa-brands {
+    font-size: 2em;
+    background-color: #25282b;
+    color: white;
+    padding: 1em;
+}
+    
+
+                                                                            /*-----------------FIN BEFORE NAV ----------------*/ 
+
+
+                                                                            
+                                                                            
+                                                                            /*----------------- NAV BAR ----------------*/ 
+
+                        
+nav {
+    background-color: #dddddde7; 
+    position: relative;
+    z-index: 4;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    margin-right: 10%;
+    padding: 1.5em;
+    list-style-type: none;
+}
+nav a {
+    padding: 2em;
+}
+nav ul li a {
+    color: #232628;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 1.05em;
+   
+ }
+nav a:hover {
+    background:#CC6119 ;
+    transition: .5s;
+    color: white;
+    padding: 1.4em;
+}
+
+                                                    /*--------------- FIN NAVBAR ---------------*/
+
+
+                                                    
+                                                    /*--------------- PREMIERE PARTIE  ---------------*/
+
+
+#titlebanner {
+    background-image: url(../Img/vehicule1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 76vh;
+    margin-top: -6em;
+}
+#titlebanner h1 {
+    background-color: #25282b;
+    display: flex;
+    padding: 1em 0 1em 5.5em;
+    font-size: 2.5em;
+    color: white;
+    position: relative;
+    top: 16em;
+
+}
+#titlebanner span {
+    color: #CC6119;
+     margin-left: 0.5em;
+}
+#imgclient {
+    float: left; 
+    width: 49%; 
+    margin-right: 2em;
+}
+#imgentretient {
+    float: right;
+    width: 49%;
+    margin-top: 2em;
+}
+#pagecontent {
+    position: relative;
+    display: grid;
+    margin: 3.5em 10em 5em 10em   
+}
+#firstcolumn span {
+    color: #CC6119;
+}
+#firstcolumn h4 {
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    
+}
+#firstcolumn  {
+    line-height: 1.7em;
+}
+
+ #titlesecondcolumn {
+    border-bottom: solid 2px rgb(243, 243, 243);
+    width: 49%;
+    margin-bottom: 2em;
+ }
+ #secondcolumn h2 {
+    margin: 1.5em 0 2em 0;
+
+}
+#secondcolumn p {
+    color: #909091;
+    font-size: 1.1em ;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+}
+#secondcolumn li {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 1.2em 0 0 1.2em;
+}
+
+                                                        /*----------------- FIN PREMIERE PARTI PAGE ACCUEIL ----------------*/ 
+
+                                                                    
+                                                        
+                                                        
+                                                        /*----------------- SECONDE PARTI PAGE ACCUEIL ----------------*/ 
+
+
+.blockbanniere {
+    background-image: url("../img/vente-location.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 155vh;
+    
+}
+.achetezlouer {
+    display: flex;
+    margin-bottom: 11em;
+}
+#louer {
+    background-color:#fab637e3 ;
+    width: 40%;
+    margin: 7em 1em 5em 10em;
+    height: 25%;
+    padding: 5em 3em;
+;
+}
+#acheter {
+    background-color: #ff4848e7;
+    width: 40%;
+    margin: 7em 10em 5em 1em;
+    height: 25%;
+    padding: 5em 2em
+}
+#acheter h3 , #louer h3 {
+    display: flex;
+    margin-bottom: 1em;
+    font-size: 1.6em;
+}
+#acheter p , #louer p {
+    color: white;
+    font-size: 1.1em;
+}
+                                                 /*-----------------FIN SECONDE PAGE ACCUEIL ----------------*/
+
+
+
+                                                    
+                                                 
+                                                 
+                                                 /*-----------------TROISIEME PAGE ACCUEIL ----------------*/ 
+
+
+#vehicule {
+    background-color: #232628;
+    padding: 4em 12em;
+}
+#vehicule h2 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+#trait {
+    border-bottom:solid 2px #CC6119;
+    margin-bottom: 3em;
+}
+#vehicule > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 2vw; 
+}
+#vehicule img {
+    width: 100%;
+    height:auto;
+}
+#detail1 > div, #detail2 > div , #detail3 > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    padding: 2em 1em 5em 1em;
+    background-color: #383e42c5;
+    margin-top: -1.5em;
+}
+#vehicule a {
+    background-color: #6C98E1;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0.5em 1em 0.5em 0.5em;;
+}
+#vehicule span {
+    text-decoration:line-through;
+    color: black;
+    font-weight: lighter;
+    font-size: 0.9em;
+    padding-left: 1.1em;
+}   
+
+                                                             /*-----------------FIN TROISIEME PARTI ACCUEIL ----------------*/          
+                                
+                                                            
+                                                            
+                                                            
+                                                             /*----------------- DEBUT QUATRIEME PARTI ACCUEIL --------------*/
+
+
+#pourquoinous h2 {
+    text-align: center;
+    font-size: 2.8em;
+    margin-bottom: 3em;
+} 
+.container2 {
+    display:flex;
+    margin: 0 13em 5em 13em;
+    gap: 3.5em;   
+}
+#block1 , #block2 , #block3 , #block4 {
+    display: flex;
+}
+.contenue h4 {
+    margin-bottom: 0.5em;
+}
+.contenue {
+    font-size: 1.1em;
+   
+}
+
+#pourquoinous p {
+    font-size: 0.8em;
+}
+.container2  img {
+    width: 3em;
+    height: 3em;
+    margin-right: 0.7em;
+}
+#pourquoinous button {
+    background-color:#6c99e1ee ;
+    color: white;
+    padding: 0.8em 1.2em 0.8em 2em;
+    font-weight: bold;
+    margin: 0 45% 5em 45%;   
+    border-style: none;
+    border-radius: 5px;
+}
+
+                                                    /*----------------- FIN QUATRIEME PARTI ACCUEIL ---------------*/ 
+
+                               
+                               
+                                                    
+                                                    
+                                                    /*-----------------DEBUT DERNIERE PARTI ACCUEIL ---------------*/ 
+
+
+#clubauto {
+    background-image: url("../Img/vehicule3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+    padding: 5em 0 0 13em;
+}
+.contenue2 > div {
+    background: #fab637d2;
+    width: 43%;
+    padding: 3em;
+}
+
+.contenue2 h2 {
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+}
+.contenue2 span {
+    color: white;
+    font-size: 1.1em;
+}
+
+.contenue2 p {
+    color: black;
+    text-align:left;
+    font-size: 1.2em;
+    
+}
+
+                                                    /************** PAGE CONTACT ******************/
+
+#bannierecontact {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    bottom: 15em;
+}
+#containercontact {
+    background-color: white;
+    width: 78%;
+    margin: 0 0 -30em 17em;
+    box-shadow: #898b8f57 0px 0px 10px 10px;
+    padding: 4em 5em 0em 5em;
+    position: relative;
+    bottom: 35em;;
+}
+#containercontact h2 {
+    margin-bottom: 1.5em;
+    font-size: 2.5em;
+}
+
+#containercontact {
+    display: table;
+  }
+#containercontact  div {
+    float: left;
+    height: 5em;
+    width: 34%;
+    margin-bottom: 1em;
+   
+  }
+#containercontact input , #containercontact textarea {
+    display: flex;
+    background-color: #e9effc;
+    border: none;
+    padding: 0.8em 6em 0.8em 1.2em;
+    margin-top: 0.5em;
+}
+
+#containercontact textarea {
+    height: 8.8em;
+    width: 30em;
+    resize: none;
+
+}
+#containercontact #message { 
+    position: absolute;
+    left: 57em;
+    bottom: 12em;
+
+}
+#containercontact button {
+    position: relative;
+    right: 3.2em;
+    top: 9em;
+    padding: 0.5em 1.5em;background-color: #6C98E1;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 3px;
+    border: none;
+}
+                                                            /*--------------- FIN PAGE CONTACT --------------*/ 
+
+
+                                                            
+                                                            
+                                                            /*-----------------DEBUT PAGE LOCATION ----------------*/ 
+
+#titleloc {
+    
+    background-image: url("../Img/vente-location.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 80vh;
+    bottom: 36em;
+    
+}
+#titleloc h1 {
+    padding:12em 0 0 3em;
+    font-size: 3em; 
+    color: white;
+ }
+#choixprix {
+    display: flex;
+    margin: -33em 0 0 10em;
+    gap: 1em;
+    align-items: center;
+    
+}   
+#choixprix select {
+    background-color: #ebf3fa;
+    border: none;
+    padding: 0.5em;
+    font-size: 1.2em;
+}                 
+#leftlocation img {
+    width: 28%;
+}
+#leftlocation {
+    margin: 0 0 -43em 10em;
+    position: relative;
+    bottom: 49em;
+}
+
+.blockloc {
+    display: flex;
+    margin-top: 2.5em;
+    width: 70%;
+    
+}
+.traitloc {
+    border-bottom: #b8c7d691 1px solid;
+    width: 70%;
+    padding-top: 2em;
+}
+
+.blockcontent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    gap: 1.5em;
+    padding-bottom: ;
+}
+
+.blockcontent > div {
+    display: flex;
+    justify-content: space-between;
+}
+.blockcontent h3 {
+    font-size: 1.5em;
+}
+#leftlocation a {
+    text-decoration: none;
+    color: black;  
+    font-weight: bold;;
+}
+.blockloc button {
+    display: flex;
+    width: 17%;
+    background-color: #6C98E1;
+    color: white;
+    border: none;
+    font-size: 1.3em;
+    font-weight:bold ;
+    padding: 0.5em 1em;     
+}
+#rightcolonelocation #searchbarre {
+   display: flex;
+    background-color: #25282b;
+    color: white;
+    padding :2rem 1.5rem 1.5rem 1.5rem;
+    gap: 1rem;
+    font-size: 1.2em;
+   align-items: center;
+
+}
+#searchbarre img {
+    width:3.5rem;
+    height: 3rem;
+}
+aside {
+    position: relative;
+    z-index: 1;
+    left: 90em;
+    bottom: 8em;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    box-shadow:0 0 20px #b3b6b9;
+    
+}
+#containerchoix {
+    padding: 2rem 1.5rem;
+}
+#formulairechoixlocation > div {
+    display: grid; 
+    gap: 1rem;
+}
+#containerchoix select {
+    background-color: #e9e9ee;
+    padding: 0.8rem;
+    font-size: 1.1em;
+    color: #595a5c;
+    border: none;
+    
+}
+#prixlocation p {
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+#prixlocation input{
+    width: 100%;
+    color: #6C98E1
+    ;
+   
+}
+aside #minmax {
+    display: flex;
+    justify-content: space-between
+}
+#minmax input {
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+    background-color: #ededf0;
+    border: none;
+}
+#buttonreset input {
+    background-color:#6C98E1 ;
+    color: white;
+    margin-top: 4rem;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+                                                    /*-----------------FIN PAGE LOCATION ----------------*/ 
+
+
+                                                    
+                                                    
+                                                    
+                                                    /***************** PAGE VEHICULE DETAIL *********************/
+
+
+ #contentdetail {
+       margin-left: 12em;
+ }
+ #navbardetail {
+    border-bottom:#8f9194 1px solid ;
+    width: 87%;
+}    
+#navbardetail p {
+    margin: 0.5em 0 1em 0;
+}          
+#imgdetail img {
+    width: 60%;
+}
+#navbardescription  {
+    display: flex;
+    list-style-type: none;
+    background-color: #232628;
+    width: 55%;
+    padding: 2vh 0 2vh 0;
+    margin-top: 5vh;
+}
+#navbardescription a  {
+    text-decoration: none; 
+    padding-left: 3vh;
+    text-align: left;
+    text-transform: none;
+    color: white;
+    
+}
+#navbardescription a:hover {
+    background: white;
+    color: #232628;
+    padding: 2vh;
+    border-top: 4px #CC6119 solid;
+    border-left: 4px #232628 solid;
+}
+#description {
+    width: 55%; 
+    margin: 5vh 0 5vh 0;
+    line-height: 1.6em;
+    color: #17181a ;
+}
+#description1 {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+#description2 {
+    margin-bottom: 1.5em;
+}
+#description3 {
+    border-left: #CC6119 3px solid; 
+    padding-left: 1.5em;
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+}
+#description4 {
+    margin-bottom: 1.5em;
+}
+#description h3 {
+    margin: 2em 0 2em 0;
+}
+#description ul {
+    margin-left: 1.5em;
+ 
+}
+
+
+                                                    /*-----------------FIN VEHICULE DETAIL ----------------*/ 
+
+
+
+
+
+                                                    /*-----------       PAGE REMERCIMENT    ***************/
+
+#pageremerciment {
+    display: flex;
+    flex
+}
+#pageremerciment  img {
+    width: 40%;
+}
+#pageremerciment p {
+    font-size: 7em;
+    text-align: center;
+    margin:1em 1em 0 1em ;
+}
+
+                                                /*-------------- FIN PAGE REMERCIEMENT ------------------*/
+
+
+
+
+
+
+                                                /*------------------- DEBUT FOOTER -------------------------*/
+
+footer {
+    background-color: #232628;
+    width: 100%;
+    padding: 5em 5em 1em 12em;
+}
+.footer {
+    display: flex;
+    gap: 2.5em;
+}
+.footer > div {
+   width: 21%;
+}
+
+.footer p {
+    color: #a8abaf;
+}
+.footer h4 {
+    color: white;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+.footer p {
+    font-size: 1.1em;
+}
+.footerhoraire {
+    font-weight: bold;
+    margin-right: 4em;
+}
+.footer span {
+    color: #6C98E1;
+}
+.footer input {
+    padding: 0.7em 1em;
+}
+#news button {
+    padding: 0.8em;
+    background-color: #CC6119;
+    color: white;
+    border:none;
+}
+.footer .fa-brands {
+    color: white; 
+    font-size: 2em;
+    background-color: #3c3e41;
+
+    }
+
+.Copyright {
+    border-top: 1px solid rgb(87, 86, 86);
+    display: flex;
+    margin: 3em 0 0 1em;
+    justify-content: center;
+    width: 90%;
+}
+.Copyright p {
+    
+    margin: 3em 0 0 1em ; 
+    color: #727477;
+}
+
+                                                    /*------------------- fIN FOOTER -------------------------*/
+
+
+
+
+                                                    /*------------------- DEBUT RESPONSIVE ---------------*/
+
+@media screen and (max-width: 600px) {
+
+* {
+    padding:0;
+    margin: 0;
+}    
+
+                                        /*----------- DEBUT BEFORE NAV RESPONSIVE -----------------*/
+
+#beforenav  {
+        
+        width: 100%;
+        height: 30vh;
+        display: block;
+        padding: 0;
+}
+#Beforenav #logoadresse , #ouverturehoraires , #adresse , .fa-brands ,   #mainnav  , #logoadresse  , nav {
+        visibility: hidden;
+        display: none; 
+}
+#beforenav h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 1em 0 0 0.5em;
+}
+.fa-solid {
+        visibility: visible;
+}
+.blocktelephone {
+    padding: 2em 0 0 1em;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+#logotelephone {
+    margin-right: 0.5em;
+}
+
+                                        /*----------- FIN BEFORE NAV RESPONSIVE -----------------*/
+
+
+
+
+
+                                        /*----------- DEBUT PAGE INDEX RESPONSIVE -----------------*/
+#titlebanner {
+    display: none;
+    background-image: none;
+    
+}
+#pagecontent {
+    margin: 0;
+}
+#firstcolumn  , #secondcolumn {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 3em;
+}
+#imgclient , #imgentretient{
+    width: 100%;
+}
+#firstcolumn h2 , #secondcolumn h2 {
+    font-size: 2.2em;
+    margin: 1em 0 1em 0;
+    line-height: 1.2em;
+}
+#firstcolumn h4 {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+#firstcolumn p {
+    font-size:1.5em ;
+    line-height: 1.5em;
+    color: #3c3e41;
+}
+#secondcolumn h2 {
+    border-bottom: #3c3e41 1px solid;
+}
+.blockbanniere { 
+    background-size: 100% 135vh;
+    
+}
+.achetezlouer {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+#acheter , #louer {
+    margin: 3em 0 0em 0;
+    width: 100%;
+    padding: 3em 11em 3em 7em;
+
+}
+#acheter h3 , #louer h3 {
+    font-size: 2em;
+}
+#acheter p , #louer p {
+    font-size: 1.5em;
+}
+#vehicule {
+    padding:0;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin: 0;
+    
+}
+#vehicule h2 {
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+    
+}
+#trait {
+    border-bottom: solid 5px #CC6119;
+    width: 90%;
+}
+#vehicule > div {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 1.5em 0 1.5em;
+    gap: 3em;
+}
+#detail1 >div {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 ;
+    padding: 3em 3em 5em 3em;
+    align-items: start;
+}
+#detail1 h3 {
+    display: flex;
+    font-size: 2em;
+    white-space:pre-wrap ;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+#detail1 a { 
+    margin: 0 0 1.5em 1.8em;
+    padding:1em 1.5em 1em 0.5em;
+    font-size: 1.5em;
+}
+#container #pic2 , #container #pic3 , #container #detail2 , #container #detail3 {
+    display: none;
+    visibility: none;
+}
+#pourquoinous {
+    margin-top: 60em;
+}
+#pourquoinous h2 {
+    font-size: 3.3em;
+    display: flex;
+    align-items: center;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0em 6em 0em 3em;
+}
+#block1 , #block2 , #block3 {
+    margin: 2em 0 2em 0;
+}
+.contenue {
+    font-size: 1.5em; 
+}
+.contenue h4 {
+    font-size: 1.3em;
+    margin-bottom: 1.5em;
+}
+.container2 p {
+    color: #a5a8ad;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+.logo {
+    font-size: 2.5em;
+}
+#pourquoinous button {
+    display: flex;
+    margin: 5em 0 5em 3.5em;
+    padding: 1.3em 1.5em 1.3em 3em;
+    justify-content: center;
+    font-size: 1.9em;
+    box-shadow:0 5px #7ca7ecf1;
+}
+#clubauto {
+    background-size: cover;
+    padding: 5em 0 0 0;
+}
+.contenue2 > div {
+width: 100%;
+padding: 6em  4em;;
+line-height: 1.4;
+}
+.contenue2 h2 {
+    font-size: 2.4em;
+
+}
+footer {
+    margin: 0;
+    padding: 0;
+}
+                                            
+
+                                            /*----------- DEBUT PAGE INDEX RESPONSIVE -----------------*/                                            
+
+                                            
+                                            
+                                            
+                                            /*--------------- DEBUT PAGE CONTACT RESPONSIVE ------------------*/
+
+
+
+#contactform {
+    background-size: 100% 50vh;
+}
+#containercontact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    padding-bottom: 3em;
+}
+#containercontact  div {
+    float: none;
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+#containercontact textarea {
+    width: 100%;
+}                                     
+#containercontact input , #containercontact textarea {
+    padding: 1em 2.5em ;
+    margin-bottom: 2em;
+}
+#containercontact button {
+    position: static;
+    width: 70%;
+    padding: 1em 2em;
+    font-weight: 600;
+    box-shadow:0 3px #5370a0f1;
+}
+#containercontact #message {
+    position: static;
+}
+
+
+                            /*************** FIN PAGE CONTACT RESPONSIVE ******************/
+
+
+
+                            /*************** DEBUT PAGE VENTE / LOUER RESPONSIVE *********/
+
+
+
+#titleloc  {
+    height: 95vh; 
+}
+#titleloc h1 {
+    padding: 12em 0 0 1em;
+    font-size: 3.5em;
+}
+#premierepartielocvente {
+    display: flex;
+    flex-direction: column-reverse;
+}                     
+#rightcolonelocation  {
+    width: 85%;
+    margin:-33em 0 30em 3em;
+    position: relative;
+    left: 0;
+    z-index: 3;
+    gap: 4em;
+}
+#choixprix {
+    margin: -35em 0 0 3em;
+}
+#formulairechoixlocation > div  {
+    padding: 0 5em 3em 5em;
+}
+#searchbarre img {
+    width:4rem;
+    height: 4rem;
+}
+#rightcolonelocation #searchbarre {
+    padding: 2rem 1.5rem 1.5rem 3em;
+    gap: 2em;
+    font-size: 1.6em;
+}
+#prixlocation p {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+aside #minmax {
+    flex-direction: column;
+    gap: 1.5em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#minmax input {
+    width: 100%;
+    padding: 1em 0;
+}
+#buttonreset input {
+    padding: 1.3em 0;
+    font-size: 1.3em;
+}
+
+#leftlocation {
+    display: flex;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+.traitloc {
+    border-bottom: #b8c7d691 1px solid;
+    width: 85%;
+    padding-top: 5em;
+    margin-left: 3em;
+}
+#leftlocation img {
+    width: 100%;
+}
+#leftlocation {
+    margin-bottom: 8em;
+}
+.blockloc {
+    width: 85%;
+    flex-direction: column;
+    margin-left: 3em;
+}
+.blockcontent {
+    margin: 0;
+    margin-top: 2em;
+}
+.blockcontent > p {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #626366;
+    line-height: 1.4em;
+}
+.blockloc button {
+    position: relative;
+    bottom: 5.1em;
+    padding: 1.2em 2.5em;
+    width: auto;
+}
+
+
+                                        /*------------- FIN PAGE VENTE / LOUER RESPONSIVE --------------*/
+
+
+
+
+
+                                        /*------------------PAGE DETAIL RESPONSIVE ----------------*/ 
+
+
+#contentdetail {
+    margin: 7em 3em 0 3em ;
+}
+#navbardetail {
+    font-size: 1.4em;
+    width: auto;
+}
+#imgdetail h1 {
+    font-size: 2.2em;
+}
+#imgdetail img {
+    width: 100%;
+}
+#navbardescription {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0 3em 0;
+    gap: 5.5em;
+}
+#navbardescription li {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+#navbardescription a:hover {
+    padding: 2.2em 7.4em 1.7em 7.4em;
+    border-top: 7px #CC6119 solid;
+    border-left: none;
+    font-weight: 1000;
+}
+#description {
+    width: auto;
+    line-height: 1.9em;
+}
+#description1 {
+    font-size: 1.7em ;
+    font-weight: 400;
+}
+#description2  , #description4 {
+    font-size: 1.1em;
+    font-weight: 350;
+}
+#description3 {
+    border-left: #CC6119 6px solid; 
+    white-space:pre-line ;
+    color: #83868a;
+    font-size: 1.4em;
+}
+#description h3 {
+    font-size: 1.7em;
+    margin-bottom: 1.5em;
+}
+#description ul {
+    font-size: 1.3em;
+    line-height: 2.5em;
+}
+#pageremerciment {
+    flex-direction: column;
+    font-size: 0.7em;
+}
+#pageremerciment img {
+    width: 100%;
+}
+
+
+
+                            /*------------ fIN PAGE DETAIL RESPONSIVE -------------------*/
+
+
+
+
+
+
+                            /*--------------- DEBUT FOOTER RESPONSIVE ------------------*/
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+.footer > div {
+    width: 100%;
+    padding: 3em 2em 0 1.5em;
+}
+.footer p {
+    line-height: 1.5em;
+}
+#horaire span {
+    color: white;
+}
+.footer form {
+    display: flex;
+}
+.footer input {
+    padding: 1.5 17em 1.5em 2em;
+}
+.footer .fa-solid {
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+}
+
+.footer p {
+    line-height: 1.5em;
+}
+.footer .fa-brands {
+    visibility: visible;
+    font-size: 5em;
+   background-color: white;
+   color: #3c3e41;
+
+}
+.Copyright {
+    font-size: 1.3em;
+    padding-bottom: 2em;
+}
+
+                                        /*--------------- FIN FOOTER RESPONSIVE ------------------*/
